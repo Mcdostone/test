@@ -1,0 +1,30 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+logs
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+dataclasses
+data
+classes
+
+.DS_Store
+gradlew.bat
