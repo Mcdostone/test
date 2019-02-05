@@ -16,7 +16,8 @@ script:
   - ./gradlew build jacocoTestReport
 
 after_script:
-  - JACOCO_SOURCE_PATH=src/main/java ./cc-test-reporter format-coverage build/reports/jacoco/jacocoTestReport.xml --input-type jacoco ./cc-test-reporter upload-coverage
+  - JACOCO_SOURCE_PATH=src/main/java ./cc-test-reporter format-coverage build/reports/jacoco/jacocoTestReport.xml --input-type jacoco 
+  - ./cc-test-reporter upload-coverage
 
 before_cache:
 - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
