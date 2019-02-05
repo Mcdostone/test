@@ -11,6 +11,10 @@ before_script:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 
+script:
+  - ./gradlew test
+  - ./gradlew build jacocoTestReport
+
 after_script:
   - ./cc-test-reporter after-build -t jacoco --exit-code $TRAVIS_TEST_RESULT
 
