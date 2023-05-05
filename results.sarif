@@ -1,0 +1,711 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "link-checker",
+          "fullName": "link-checker",
+          "informationUri": "https://github.com/Mcdostone/web-validator",
+          "version": "0.0.1",
+          "organization": "Mcdostone",
+          "rules": [
+            {
+              "id": "FF8",
+              "name": "W3cHtml",
+              "shortDescription": {
+                "text": "validate the HTML document using the online W3C validator"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF14",
+              "name": "HtmlDeadLink",
+              "shortDescription": {
+                "text": "Look for dead links"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF16",
+              "name": "HtmlDeadAnchor",
+              "shortDescription": {
+                "text": "Look for dead link anchors"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF7",
+              "name": "W3cCss",
+              "shortDescription": {
+                "text": "validate the CSS stylesheets using the online W3C validator"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF18",
+              "name": "MarkdownDeadLink",
+              "shortDescription": {
+                "text": "Look for dead links"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF20",
+              "name": "MarkdownDeadAnchor",
+              "shortDescription": {
+                "text": "Look for dead link anchors"
+              },
+              "helpUri": "https://github.com/"
+            }
+          ]
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "test/articles/first-time-arch-linux/index.html"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/articles/syntax-highlighter/index.html"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/assets/css/style-3d9f6cfd.css"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/index.html"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/index.md"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
+          }
+        },
+        {
+          "location": {
+            "uri": "test/recipes/vegetarian-savoury-cake/index.html"
+          }
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/articsles/self-documented-makefile-v1-1"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/css/style-3d9f6cfd.css"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "error sending request for url (https://pouet.chaprill.org/@yannp): error trying to connect: dns error: failed to lookup address information: Name or service not known"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/js/dark-42666931.js"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/js/dark-42666931.js"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/assets/images/icons-8b3b17009c.svsg"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '/articles/first-time-arch-linux#install' does not exist"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '/articles/cookies/#tool' does not exist"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF18",
+          "message": {
+            "text": "https://github.com/ggserganov/llama.cpp returned 404 Not Found"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.md"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF18",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/builds/llama-go-v1.4.0.exe"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.md"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF18",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/builds/llama-go-v1.4.0-macos"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.md"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF18",
+          "message": {
+            "text": "No such file /home/yannp/Documents/web-validator/test/builds/llama-go-v1.4.0-linux"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.md"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF20",
+          "message": {
+            "text": "Cannot verify anchor '/home/yannp/Documents/web-validator/test/index.md' exist, module is not ready yet"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/index.md"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '#les-ingr%C3%A9dients' should only contain ASCII letters, digits, '_', and '-'"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '#les-ingr%C3%A9dients' should only contain ASCII letters, digits, '_', and '-'"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/recipes/vegetarian-savoury-cake/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF8",
+          "message": {
+            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF8",
+          "message": {
+            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF8",
+          "message": {
+            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF8",
+          "message": {
+            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF8",
+          "message": {
+            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "https://mcdostone.github.io/install-arch-linux returned 404 Not Found"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/first-time-arch-linux/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor 'https://github.com/shikijs/shiki/blob/main/docs/themes.md#theming-with-css-variables' does not exist"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/syntax-highlighter/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor 'https://github.com/shikijs/shiki/blob/main/packages/shiki/src/highlighter.ts#LL130C18-L130C18' does not exist"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/syntax-highlighter/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor 'https://github.com/shikijs/shiki/blob/main/packages/shiki/src/highlighter.ts#LL115C12-L115C18' does not exist"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/syntax-highlighter/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF14",
+          "message": {
+            "text": "https://www.reddit.com/r/fuckcars returned 403 Forbidden"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '#why-does-it-look-so-bad%3F' should only contain ASCII letters, digits, '_', and '-'"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF16",
+          "message": {
+            "text": "Anchor '#any-solutions%3F' should only contain ASCII letters, digits, '_', and '-'"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF7",
+          "message": {
+            "text": "“scrollbar-gutter”: Property “scrollbar-gutter” doesn't exist."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF7",
+          "message": {
+            "text": "“--padding”: The types are incompatible."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "FF7",
+          "message": {
+            "text": "“aspect-ratio”: “1” is not a “aspect-ratio” value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
