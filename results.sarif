@@ -49,42 +49,42 @@
       "artifacts": [
         {
           "location": {
-            "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+            "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
           }
         },
         {
           "location": {
-            "uri": "test/articles/syntax-highlighter/index.html"
+            "uri": "articles/syntax-highlighter/index.html"
           }
         },
         {
           "location": {
-            "uri": "test/assets/css/style-3d9f6cfd.css"
+            "uri": "assets/css/style-3d9f6cfd.css"
           }
         },
         {
           "location": {
-            "uri": "test/index.html"
+            "uri": "index.html"
           }
         },
         {
           "location": {
-            "uri": "test/index.md"
+            "uri": "index.md"
           }
         },
         {
           "location": {
-            "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
+            "uri": "recipes/butternut-goat-cheese-lasagna/index.html"
           }
         },
         {
           "location": {
-            "uri": "test/recipes/vegetarian-savoury-cake/index.html"
+            "uri": "recipes/vegetarian-savoury-cake/index.html"
           }
         },
         {
           "location": {
-            "uri": "test/test.html"
+            "uri": "test.html"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.html"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 83,
@@ -121,7 +121,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.md"
+                  "uri": "index.md"
                 },
                 "region": {
                   "startLine": 1,
@@ -142,7 +142,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.md"
+                  "uri": "index.md"
                 },
                 "region": {
                   "startLine": 1,
@@ -163,7 +163,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.md"
+                  "uri": "index.md"
                 },
                 "region": {
                   "startLine": 1,
@@ -184,7 +184,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.md"
+                  "uri": "index.md"
                 },
                 "region": {
                   "startLine": 1,
@@ -205,7 +205,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/index.md"
+                  "uri": "index.md"
                 },
                 "region": {
                   "startLine": 1,
@@ -226,7 +226,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
+                  "uri": "recipes/butternut-goat-cheese-lasagna/index.html"
                 },
                 "region": {
                   "startLine": 48,
@@ -248,7 +248,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/recipes/vegetarian-savoury-cake/index.html"
+                  "uri": "recipes/vegetarian-savoury-cake/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -270,7 +270,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/test.html"
+                  "uri": "test.html"
                 },
                 "region": {
                   "startLine": 8,
@@ -292,7 +292,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/articles/syntax-highlighter/index.html"
+                  "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -314,7 +314,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/articles/syntax-highlighter/index.html"
+                  "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -336,7 +336,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/articles/syntax-highlighter/index.html"
+                  "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -358,7 +358,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -380,7 +380,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
+                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -402,7 +402,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                  "uri": "assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
@@ -424,7 +424,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                  "uri": "assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
@@ -445,7 +445,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/assets/css/style-3d9f6cfd.css"
+                  "uri": "assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
