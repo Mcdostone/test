@@ -12,22 +12,6 @@
           "organization": "Mcdostone",
           "rules": [
             {
-              "id": "FF8",
-              "name": "W3cHtml",
-              "shortDescription": {
-                "text": "validate the HTML document using the online W3C validator"
-              },
-              "helpUri": "https://github.com/"
-            },
-            {
-              "id": "FF14",
-              "name": "HtmlDeadLink",
-              "shortDescription": {
-                "text": "Look for dead links"
-              },
-              "helpUri": "https://github.com/"
-            },
-            {
               "id": "FF16",
               "name": "HtmlDeadAnchor",
               "shortDescription": {
@@ -65,11 +49,6 @@
       "artifacts": [
         {
           "location": {
-            "uri": "articles/first-time-arch-linux/index.html"
-          }
-        },
-        {
-          "location": {
             "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
           }
         },
@@ -102,129 +81,14 @@
           "location": {
             "uri": "recipes/vegetarian-savoury-cake/index.html"
           }
+        },
+        {
+          "location": {
+            "uri": "test.html"
+          }
         }
       ],
       "results": [
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "No such file /home/yannp/Documents/web-validator/test/articsles/self-documented-makefile-v1-1"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/css/style-3d9f6cfd.css"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "error sending request for url (https://pouet.chaprill.org/@yannp): error trying to connect: dns error: failed to lookup address information: Name or service not known"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/js/dark-42666931.js"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "No such file /home/yannp/Documents/web-validator/test/asssets/js/dark-42666931.js"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "No such file /home/yannp/Documents/web-validator/test/assets/images/icons-8b3b17009c.svsg"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
         {
           "ruleId": "FF16",
           "message": {
@@ -238,28 +102,10 @@
                   "uri": "index.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF16",
-          "message": {
-            "text": "Anchor '/articles/cookies/#tool' does not exist"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 83,
+                  "endLine": 92,
+                  "startColumn": 21,
+                  "endColumn": 24
                 }
               }
             }
@@ -278,8 +124,9 @@
                   "uri": "index.md"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 0,
+                  "endLine": 0,
+                  "endColumn": 0
                 }
               }
             }
@@ -298,8 +145,9 @@
                   "uri": "index.md"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 0,
+                  "endLine": 0,
+                  "endColumn": 0
                 }
               }
             }
@@ -318,8 +166,9 @@
                   "uri": "index.md"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 0,
+                  "endLine": 0,
+                  "endColumn": 0
                 }
               }
             }
@@ -338,8 +187,9 @@
                   "uri": "index.md"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 0,
+                  "endLine": 0,
+                  "endColumn": 0
                 }
               }
             }
@@ -358,8 +208,9 @@
                   "uri": "index.md"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 0,
+                  "endLine": 0,
+                  "endColumn": 0
                 }
               }
             }
@@ -368,7 +219,7 @@
         {
           "ruleId": "FF16",
           "message": {
-            "text": "Anchor '#les-ingr%C3%A9dients' should only contain ASCII letters, digits, '_', and '-'"
+            "text": "Cannot find the Anchor '#les-ingr%C3%A9dients'. Make sure the anchor contains only ASCII letters, digits, '_', and '-'"
           },
           "level": "warning",
           "locations": [
@@ -378,8 +229,10 @@
                   "uri": "recipes/butternut-goat-cheese-lasagna/index.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 48,
+                  "endLine": 49,
+                  "startColumn": 68,
+                  "endColumn": 104
                 }
               }
             }
@@ -388,7 +241,7 @@
         {
           "ruleId": "FF16",
           "message": {
-            "text": "Anchor '#les-ingr%C3%A9dients' should only contain ASCII letters, digits, '_', and '-'"
+            "text": "Cannot find the Anchor '#les-ingr%C3%A9dients'. Make sure the anchor contains only ASCII letters, digits, '_', and '-'"
           },
           "level": "warning",
           "locations": [
@@ -399,127 +252,31 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "startColumn": 2336,
+                  "endColumn": 2451
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "FF8",
+          "ruleId": "FF16",
           "message": {
-            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
-          },
-          "level": "note",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF8",
-          "message": {
-            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
-          },
-          "level": "note",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF8",
-          "message": {
-            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
-          },
-          "level": "note",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF8",
-          "message": {
-            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
-          },
-          "level": "note",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF8",
-          "message": {
-            "text": "A table row was 2 columns wide, which is less than the column count established by the first row (3)."
-          },
-          "level": "note",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "https://mcdostone.github.io/install-arch-linux returned 404 Not Found"
+            "text": "Anchor './2.html#tool' does not exist"
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/first-time-arch-linux/index.html"
+                  "uri": "test.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 8,
+                  "endLine": 12,
+                  "startColumn": 5,
+                  "endColumn": 29
                 }
               }
             }
@@ -538,8 +295,10 @@
                   "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 59,
+                  "endLine": 59,
+                  "startColumn": 563,
+                  "endColumn": 674
                 }
               }
             }
@@ -558,8 +317,10 @@
                   "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 59,
+                  "endLine": 59,
+                  "startColumn": 1039,
+                  "endColumn": 1169
                 }
               }
             }
@@ -578,28 +339,10 @@
                   "uri": "articles/syntax-highlighter/index.html"
                 },
                 "region": {
-                  "startLine": 1,
-                  "endLine": 2
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF14",
-          "message": {
-            "text": "https://www.reddit.com/r/fuckcars returned 403 Forbidden"
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 2
+                  "startLine": 59,
+                  "endLine": 59,
+                  "startColumn": 1227,
+                  "endColumn": 1365
                 }
               }
             }
@@ -608,7 +351,7 @@
         {
           "ruleId": "FF16",
           "message": {
-            "text": "Anchor '#why-does-it-look-so-bad%3F' should only contain ASCII letters, digits, '_', and '-'"
+            "text": "Cannot find the Anchor '#why-does-it-look-so-bad%3F'. Make sure the anchor contains only ASCII letters, digits, '_', and '-'"
           },
           "level": "warning",
           "locations": [
@@ -619,7 +362,9 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "startColumn": 25792,
+                  "endColumn": 25921
                 }
               }
             }
@@ -628,7 +373,7 @@
         {
           "ruleId": "FF16",
           "message": {
-            "text": "Anchor '#any-solutions%3F' should only contain ASCII letters, digits, '_', and '-'"
+            "text": "Cannot find the Anchor '#any-solutions%3F'. Make sure the anchor contains only ASCII letters, digits, '_', and '-'"
           },
           "level": "warning",
           "locations": [
@@ -639,7 +384,9 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "startColumn": 26369,
+                  "endColumn": 26478
                 }
               }
             }
@@ -659,7 +406,9 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "startColumn": 954,
+                  "endColumn": 959
                 }
               }
             }
@@ -679,7 +428,8 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "endColumn": 1198
                 }
               }
             }
@@ -699,11 +449,19 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "endLine": 2
+                  "endLine": 1,
+                  "endColumn": 15797
                 }
               }
             }
           ]
+        }
+      ],
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/Mcdostone/",
+          "revisionId": "00",
+          "branch": "main"
         }
       ]
     }
