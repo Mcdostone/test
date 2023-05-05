@@ -49,42 +49,42 @@
       "artifacts": [
         {
           "location": {
-            "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
+            "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
           }
         },
         {
           "location": {
-            "uri": "articles/syntax-highlighter/index.html"
+            "uri": "test/articles/syntax-highlighter/index.html"
           }
         },
         {
           "location": {
-            "uri": "assets/css/style-3d9f6cfd.css"
+            "uri": "test/assets/css/style-3d9f6cfd.css"
           }
         },
         {
           "location": {
-            "uri": "index.html"
+            "uri": "test/index.html"
           }
         },
         {
           "location": {
-            "uri": "index.md"
+            "uri": "test/index.md"
           }
         },
         {
           "location": {
-            "uri": "recipes/butternut-goat-cheese-lasagna/index.html"
+            "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
           }
         },
         {
           "location": {
-            "uri": "recipes/vegetarian-savoury-cake/index.html"
+            "uri": "test/recipes/vegetarian-savoury-cake/index.html"
           }
         },
         {
           "location": {
-            "uri": "test.html"
+            "uri": "test/test.html"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.html"
+                  "uri": "test/index.html"
                 },
                 "region": {
                   "startLine": 83,
@@ -121,12 +121,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.md"
+                  "uri": "test/index.md"
                 },
                 "region": {
-                  "startLine": 0,
-                  "endLine": 0,
-                  "endColumn": 0
+                  "startLine": 1,
+                  "endLine": 1,
+                  "endColumn": 1
                 }
               }
             }
@@ -142,12 +142,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.md"
+                  "uri": "test/index.md"
                 },
                 "region": {
-                  "startLine": 0,
-                  "endLine": 0,
-                  "endColumn": 0
+                  "startLine": 1,
+                  "endLine": 1,
+                  "endColumn": 1
                 }
               }
             }
@@ -163,12 +163,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.md"
+                  "uri": "test/index.md"
                 },
                 "region": {
-                  "startLine": 0,
-                  "endLine": 0,
-                  "endColumn": 0
+                  "startLine": 1,
+                  "endLine": 1,
+                  "endColumn": 1
                 }
               }
             }
@@ -184,12 +184,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.md"
+                  "uri": "test/index.md"
                 },
                 "region": {
-                  "startLine": 0,
-                  "endLine": 0,
-                  "endColumn": 0
+                  "startLine": 1,
+                  "endLine": 1,
+                  "endColumn": 1
                 }
               }
             }
@@ -205,12 +205,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "index.md"
+                  "uri": "test/index.md"
                 },
                 "region": {
-                  "startLine": 0,
-                  "endLine": 0,
-                  "endColumn": 0
+                  "startLine": 1,
+                  "endLine": 1,
+                  "endColumn": 1
                 }
               }
             }
@@ -226,7 +226,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "recipes/butternut-goat-cheese-lasagna/index.html"
+                  "uri": "test/recipes/butternut-goat-cheese-lasagna/index.html"
                 },
                 "region": {
                   "startLine": 48,
@@ -248,7 +248,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "recipes/vegetarian-savoury-cake/index.html"
+                  "uri": "test/recipes/vegetarian-savoury-cake/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -270,7 +270,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test.html"
+                  "uri": "test/test.html"
                 },
                 "region": {
                   "startLine": 8,
@@ -292,7 +292,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/syntax-highlighter/index.html"
+                  "uri": "test/articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -314,7 +314,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/syntax-highlighter/index.html"
+                  "uri": "test/articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -336,7 +336,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/syntax-highlighter/index.html"
+                  "uri": "test/articles/syntax-highlighter/index.html"
                 },
                 "region": {
                   "startLine": 59,
@@ -358,7 +358,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
+                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -380,7 +380,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
+                  "uri": "test/articles/my-facebook-feed-is-a-nightmare/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -402,7 +402,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "assets/css/style-3d9f6cfd.css"
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
@@ -424,7 +424,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "assets/css/style-3d9f6cfd.css"
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
@@ -445,7 +445,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "assets/css/style-3d9f6cfd.css"
+                  "uri": "test/assets/css/style-3d9f6cfd.css"
                 },
                 "region": {
                   "startLine": 1,
