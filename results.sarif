@@ -2209,28 +2209,6 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "https://mcdostone.github.io/index.xml"
-                },
-                "region": {
-                  "startLine": 5,
-                  "endLine": 5,
-                  "startColumn": 64,
-                  "endColumn": 64
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "FF8",
-          "message": {
-            "text": "Self reference doesn't match document location"
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "index.xml"
                 },
                 "region": {
