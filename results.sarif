@@ -12,30 +12,6 @@
           "organization": "Mcdostone",
           "rules": [
             {
-              "id": "FF7",
-              "name": "W3cCss",
-              "shortDescription": {
-                "text": "validate the CSS stylesheets using the online W3C validator"
-              },
-              "helpUri": "https://github.com/"
-            },
-            {
-              "id": "FF18",
-              "name": "MarkdownDeadLink",
-              "shortDescription": {
-                "text": "Look for dead links"
-              },
-              "helpUri": "https://github.com/"
-            },
-            {
-              "id": "FF20",
-              "name": "MarkdownDeadAnchor",
-              "shortDescription": {
-                "text": "Look for dead link anchors"
-              },
-              "helpUri": "https://github.com/"
-            },
-            {
               "id": "FF8",
               "name": "W3cHtml",
               "shortDescription": {
@@ -64,6 +40,30 @@
               "name": "HtmlRss",
               "shortDescription": {
                 "text": "Validate RSS"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF7",
+              "name": "W3cCss",
+              "shortDescription": {
+                "text": "validate the CSS stylesheets using the online W3C validator"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF18",
+              "name": "MarkdownDeadLink",
+              "shortDescription": {
+                "text": "Look for dead links"
+              },
+              "helpUri": "https://github.com/"
+            },
+            {
+              "id": "FF20",
+              "name": "MarkdownDeadAnchor",
+              "shortDescription": {
+                "text": "Look for dead link anchors"
               },
               "helpUri": "https://github.com/"
             }
@@ -113,17 +113,7 @@
         },
         {
           "location": {
-            "uri": "articsles/self-documented-makefile-v1-1/"
-          }
-        },
-        {
-          "location": {
             "uri": "assets/css/style-3d9f6cfd.css"
-          }
-        },
-        {
-          "location": {
-            "uri": "assets/images/icons-8b3b17009c.svsg"
           }
         },
         {
@@ -133,37 +123,7 @@
         },
         {
           "location": {
-            "uri": "asssets/css/style-3d9f6cfd.css"
-          }
-        },
-        {
-          "location": {
-            "uri": "asssets/images/icons-8b3b17009c.svg"
-          }
-        },
-        {
-          "location": {
-            "uri": "asssets/js/dark-42666931.js"
-          }
-        },
-        {
-          "location": {
             "uri": "https://mcdostone.github.io/index.xml"
-          }
-        },
-        {
-          "location": {
-            "uri": "https://mcdostone.github.io/install-arch-linux"
-          }
-        },
-        {
-          "location": {
-            "uri": "https://pouet.chaprill.org/@yannp"
-          }
-        },
-        {
-          "location": {
-            "uri": "https://www.reddit.com/r/fuckcars"
           }
         },
         {
@@ -208,7 +168,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "articsles/self-documented-makefile-v1-1/"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 134,
@@ -230,7 +190,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "assets/images/icons-8b3b17009c.svsg"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 62,
@@ -252,7 +212,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "asssets/css/style-3d9f6cfd.css"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 23,
@@ -274,7 +234,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "asssets/images/icons-8b3b17009c.svg"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 67,
@@ -296,7 +256,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "asssets/js/dark-42666931.js"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 22,
@@ -318,7 +278,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "https://pouet.chaprill.org/@yannp"
+                  "uri": "index.html"
                 },
                 "region": {
                   "startLine": 26,
@@ -340,7 +300,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "https://mcdostone.github.io/install-arch-linux"
+                  "uri": "articles/first-time-arch-linux/index.html"
                 },
                 "region": {
                   "startLine": 16,
@@ -362,7 +322,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "https://www.reddit.com/r/fuckcars"
+                  "uri": "articles/my-facebook-feed-is-a-nightmare/index.html"
                 },
                 "region": {
                   "startLine": 1,
@@ -2501,8 +2461,8 @@
             "--debug",
             "test/"
           ],
-          "startTimeUtc": "2023-05-08T18:38:23.842277413+00:00",
-          "endTimeUtc": "2023-05-08T18:39:34.785175476+00:00",
+          "startTimeUtc": "2023-05-08T18:53:44.042358688+00:00",
+          "endTimeUtc": "2023-05-08T18:55:18.633809329+00:00",
           "executionSuccessful": true
         }
       ]
