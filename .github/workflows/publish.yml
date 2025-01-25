@@ -25,7 +25,7 @@ jobs:
 
 
   changelog:
-    needs: [version, create-release]
+    needs: [version]
     name: Create changelog
     runs-on: ubuntu-latest
     steps:
