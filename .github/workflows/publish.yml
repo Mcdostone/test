@@ -33,24 +33,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changelog
         run: |
-          git checkout -b "changelog/v${{ needs.version.outputs.version }}"
+          git checkout -b "changelog/v1.0.0"
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           set +e
           git add CHANGELOG.md
           git commit -m "chore: Update changelog"
-          git push origin "changelog/v${{ needs.version.outputs.version }}" --force
+          git push origin "changelog/v1.0.0" --force
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          ref: "changelog/v${{ needs.version.outputs.version }}"
+          ref: "changelog/v1.0.0"
       - name: Create pull request for changelog
         run: |
           git pull
-          alreadyExists=$(gh pr list --json headRefName | jq '.[] | select(.headRefName == "changelog/v${{ needs.version.outputs.version }}") | any')
+          alreadyExists=$(gh pr list --json headRefName | jq '.[] | select(.headRefName == "changelog/v1.0.0") | any')
           if [[ "$alreadyExists" == "" ]]; then
             branch=$(git branch --show-current)
-            gh pr create --head "$branch" --title "Changelog for ${{ needs.version.outputs.version }}" --body "This PR updates the changelog for version ${{ needs.version.outputs.version }}."
+            gh pr create --head "$branch" --title "Changelog for 1.0.0" --body "This PR updates the changelog for version 1.0.0."
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
