@@ -46,11 +46,6 @@ jobs:
           ref: "changelog/v1.0.0"
       - name: Create pull request for changelog
         run: |
-          git pull
-          alreadyExists=$(gh pr list --json headRefName | jq '.[] | select(.headRefName == "changelog/v1.0.0") | any')
-          if [[ "$alreadyExists" == "" ]]; then
-            branch=$(git branch --show-current)
-            gh pr create --head "$branch" --title "Changelog for 1.0.0" --body "This PR updates the changelog for version 1.0.0."
-          fi
+            gh pr create --title "Changelog for 1.0.0" --body "This PR updates the changelog for version 1.0.0."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
