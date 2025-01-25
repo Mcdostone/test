@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-curl -L https://mcdostone.github.io/articles/first-time-arch-linux/init.sh | bash
