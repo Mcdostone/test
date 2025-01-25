@@ -13,19 +13,31 @@ permissions:
   pull-requests: write
 
 jobs:
+  version:
+    name: Determine version to publish
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: release
+        run: echo "version=2.0.0" >> "$GITHUB_OUTPUT"
+
 
   changelog:
+    needs: [version, create-release]
     name: Create changelog
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - run: git fetch
       - name: Generate a changelog
         run: |
           if [ -f CHANGELOG.md ]; then
-            echo hello >> CHANGELOG.md
+            echo "again" >> CHANGELOG.md
           else
-            echo first >> CHANGELOG.md
+            echo "first" >> CHANGELOG.md
           fi
         env:
           OUTPUT: CHANGELOG.md
@@ -33,19 +45,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changelog
         run: |
-          git checkout -b "changelog/v1.0.0"
+          git checkout -b "changelog/v${{ needs.version.outputs.version }}"
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           set +e
           git add CHANGELOG.md
           git commit -m "chore: Update changelog"
-          git push origin "changelog/v1.0.0" --force
+          git push origin "changelog/v${{ needs.version.outputs.version }}" --force
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          ref: "changelog/v1.0.0"
+          ref: "changelog/v${{ needs.version.outputs.version }}"
       - name: Create pull request for changelog
         run: |
-            gh pr create --title "Changelog for 1.0.0" --body "This PR updates the changelog for version 1.0.0."
-        env:
+          alreadyExists=$(gh pr list --json headRefName | jq '.[] | select(.headRefName == "changelog/v${{ needs.version.outputs.version }}") | any')
+          if [[ "$alreadyExists" == "" ]]; then
+            branch=$(git branch --show-current)
+            gh pr create --head "$branch" --title "Changelog for ${{ needs.version.outputs.version }}" --body "This PR updates the changelog for version ${{ needs.version.outputs.version }}."
+          fi
+        env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
